@@ -125,7 +125,10 @@ p, a {
   font-family: "ff-speak-web",sans-serif;
 }
 
-
+footer {
+  position: fixed;
+  bottom: 0;
+}
 
 
 
