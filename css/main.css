@@ -141,9 +141,17 @@ a {
   text-decoration: none;
   padding: 10px 16px;
   font-size: 20px;
+  width: 180px;
   border-radius: 50px;
   background-color: #450f2e;
-  margin: 0 0 20px 0;
+  text-align: center;
+  /* margin: 0 0 20px 0; */
+}
+
+.options {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
 }
 
 a:hover {
