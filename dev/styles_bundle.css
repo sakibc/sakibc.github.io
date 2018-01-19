@@ -44,25 +44,76 @@ img {
   height: auto;
   vertical-align: middle; }
 
+#about {
+  background: #f5d9b8; }
+  #about .container {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto 40%;
+    grid-template-areas: "header image" "copy image"; }
+  #about h1 {
+    grid-area: header;
+    font-family: "faricy-new-web", sans-serif;
+    font-size: 50px;
+    color: #503b34;
+    margin-top: 20px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-self: center;
+    align-self: end;
+    border-bottom: 4px solid #8d695d; }
+  #about img {
+    grid-area: image;
+    padding: 20px 0; }
+  #about .copy {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-area: copy;
+    align-self: start;
+    font-family: "adelle", serif;
+    font-size: 20px;
+    color: #503b34;
+    line-height: 130%; }
+  #about p {
+    margin-bottom: 10px; }
+
+#gallery {
+  background: #8d695d; }
+  #gallery .container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center; }
+  #gallery h1 {
+    font-family: "faricy-new-web", sans-serif;
+    font-size: 50px;
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 4px solid #f5d9b8; }
+
 header {
   min-height: 500px;
   height: 100vh;
   position: relative; }
   header h1 {
     font-size: 20px;
-    color: #FFF;
-    font-family: "faricy-new-web",sans-serif;
+    color: #e7fbf8;
+    font-family: "faricy-new-web", sans-serif;
     font-weight: 400; }
   header a {
     font-size: 20px;
-    color: #FFF;
-    font-family: "faricy-new-web",sans-serif;
+    text-align: center;
+    color: #e7fbf8;
+    font-family: "faricy-new-web", sans-serif;
     text-decoration: none;
     padding-right: 20px; }
   header a:hover {
-    font-weight: 700; }
+    color: white; }
   header a:active {
-    font-weight: 500; }
+    color: #d1f7f2; }
   header .fullscreen-bg {
     position: absolute;
     top: 0;
@@ -86,3 +137,15 @@ header {
   height: 100%;
   margin: 0 auto;
   padding: 20px; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  background: #040404;
+  color: white; }
+  footer h1 {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "adelle", serif; }
