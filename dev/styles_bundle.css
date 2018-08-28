@@ -44,8 +44,22 @@ img {
   height: auto;
   vertical-align: middle; }
 
+.fade-enter {
+  opacity: 0; }
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 0.2s; }
+
+.fade-leave {
+  opacity: 1; }
+
+.fade-leave.fade-leave-active {
+  opacity: 0;
+  transition: opacity 0.2s; }
+
 #about {
-  background: #f5d9b8; }
+  background: #efd9c7; }
   #about .container {
     display: grid;
     grid-template-rows: auto auto;
@@ -57,7 +71,7 @@ img {
     font-size: 50px;
     color: #503b34;
     margin-top: 20px;
-    padding-bottom: 17px;
+    padding-bottom: 18px;
     padding-left: 20px;
     padding-right: 20px;
     justify-self: center;
@@ -89,10 +103,73 @@ img {
     font-size: 50px;
     color: white;
     margin-top: 20px;
-    padding-bottom: 17px;
+    padding-bottom: 18px;
     padding-left: 20px;
     padding-right: 20px;
-    border-bottom: 4px solid #f5d9b8; }
+    border-bottom: 4px solid #f5d9b8;
+    margin-bottom: 20px; }
+  #gallery #root {
+    width: 100%; }
+  #gallery #item-holder {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 14px 0 20px 0; }
+  #gallery .gallery-item {
+    position: relative;
+    transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s; }
+    #gallery .gallery-item:hover:not(.maximized) {
+      transform: scale(1.05);
+      box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.1); }
+    #gallery .gallery-item.maximized {
+      grid-column: 1 / span 4;
+      display: grid;
+      grid-template-columns: 2fr 1fr; }
+      #gallery .gallery-item.maximized img {
+        width: 100%; }
+      #gallery .gallery-item.maximized .info {
+        background: #fbf1e5;
+        padding: 20px; }
+        #gallery .gallery-item.maximized .info .title {
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: space-between;
+          padding-bottom: 10px;
+          border-bottom: 2px solid #8d695d;
+          margin-bottom: 10px; }
+        #gallery .gallery-item.maximized .info h2 {
+          font-family: "faricy-new-web", sans-serif;
+          color: #503b34;
+          font-size: 20px; }
+        #gallery .gallery-item.maximized .info p {
+          font-family: "adelle", serif;
+          color: #6e5249;
+          font-size: 18px;
+          line-height: 130%; }
+        #gallery .gallery-item.maximized .info button {
+          text-decoration: none;
+          background: none;
+          border: none;
+          padding: none;
+          margin: none; }
+    #gallery .gallery-item:not(.maximized) h2 {
+      font-family: "adelle", serif;
+      color: white;
+      font-size: 16px;
+      font-weight: normal;
+      position: absolute;
+      bottom: 0;
+      padding: 8px;
+      background: rgba(0, 0, 0, 0.1);
+      width: 100%;
+      text-align: center;
+      transition: padding 0.2s; }
+    #gallery .gallery-item:not(.maximized) img {
+      width: 100%; }
+
+html, body {
+  scroll-behavior: smooth; }
 
 header {
   min-height: 500px;
