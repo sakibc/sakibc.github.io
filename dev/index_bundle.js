@@ -20834,38 +20834,38 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 var exhibitData = [{
   'name': 'Project SuperLIMBinal',
-  'thumb': '../images/placeholder.png',
-  'image': '../images/placeholderFull.png',
+  'thumb': './images/placeholder.png',
+  'image': './images/placeholderFull.png',
   'desc': 'Cupcake ipsum dolor. Sit amet halvah dragée fruitcake. Toffee cookie pastry. Sweet bonbon halvah ice cream tootsie roll liquorice.'
 }, {
   'name': 'Portfolio Site 2018',
-  'thumb': '../images/placeholder.png',
-  'image': '../images/placeholderFull.png',
+  'thumb': './images/placeholder.png',
+  'image': './images/placeholderFull.png',
   'desc': 'Muffin candy apple pie. Cheesecake icing wafer gummies danish. Croissant liquorice donut wafer. Jujubes tootsie roll cupcake cake candy canes powder gingerbread liquorice jujubes.'
 }, {
   'name': '3D Printer',
-  'thumb': '../images/placeholder.png',
-  'image': '../images/placeholderFull.png',
+  'thumb': './images/placeholder.png',
+  'image': './images/placeholderFull.png',
   'desc': 'Powder soufflé jelly beans brownie powder I love gummies. Lemon drops cheesecake lemon drops. Gummi bears jelly jujubes soufflé jelly cake fruitcake dragée.'
 }, {
   'name': 'Visual Equalizer',
-  'thumb': '../images/placeholder.png',
-  'image': '../images/placeholderFull.png',
+  'thumb': './images/placeholder.png',
+  'image': './images/placeholderFull.png',
   'desc': 'Sweet roll apple pie icing pudding I love. Carrot cake gingerbread donut carrot cake. Jelly danish caramels chupa chups jelly tiramisu.'
 }, {
   'name': 'Atari Punk Keyboard',
-  'thumb': '../images/placeholder.png',
-  'image': '../images/placeholderFull.png',
+  'thumb': './images/placeholder.png',
+  'image': './images/placeholderFull.png',
   'desc': 'Bear claw pie chocolate. Apple pie cake I love donut I love I love pie danish sugar plum. Sweet jujubes sweet pie sesame snaps. I love cake caramels tootsie roll cake soufflé tiramisu cake.'
 }, {
   'name': 'ExciteCycle',
-  'thumb': '../images/placeholder.png',
-  'image': '../images/placeholderFull.png',
+  'thumb': './images/placeholder.png',
+  'image': './images/placeholderFull.png',
   'desc': 'Tiramisu halvah chocolate cake chocolate bar cake halvah muffin icing caramels. Cake I love I love liquorice soufflé ice cream bonbon. Caramels gummies jelly beans. Cupcake cookie lollipop biscuit I love cotton candy I love.'
 }, {
   'name': 'Tanks!',
-  'thumb': '../images/placeholder.png',
-  'image': '../images/placeholderFull.png',
+  'thumb': './images/placeholder.png',
+  'image': './images/placeholderFull.png',
   'desc': 'Sugar plum I love sweet chocolate I love gummi bears gummies. Cookie marzipan carrot cake chocolate bar dessert. Powder cake gummies I love sesame snaps biscuit tart.'
 }];
 
